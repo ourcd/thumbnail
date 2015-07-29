@@ -17,10 +17,10 @@
 <script>
 $(function(){
 	$('.iwwenbo2 img').jqthumb({
-		width: 100,
-		height: 100,
+		width: 100, //生成的缩略图的宽度
+		height: 100,//生成的缩略图的高度
 		after: function(imgObj){
-			imgObj.css('opacity', 0).animate({opacity: 1}, 2000);
+			imgObj.css('opacity', 0).animate({opacity: 1}, 2000);//动画效果
 		}
 	});
 });
